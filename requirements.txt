@@ -1,0 +1,13 @@
+numpy
+pandas
+requests
+pylint
+pytest
+memory_profiler
+matplotlib
+psycopg2-binary
+pymongo
+websockets
+paho-mqtt
+beautifulsoup4
+ 

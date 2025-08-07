@@ -1,0 +1,85 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Test and coverage outputs
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.cache
+.pytest_cache/
+nosetests.xml
+test-results.xml
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype
+.pytype/
+
+# Logs
+*.log
+
+# VS Code files
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build / distribution folders
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Profiling files
+*.prof
+*.pstats
+
+# Environment variable files
+.env
+.env.*
+
+# Database or app files (if added later)
+*.db
+*.sqlite3
+
+# macOS & Linux swap files
+*.swp
+*.swo
+*~
