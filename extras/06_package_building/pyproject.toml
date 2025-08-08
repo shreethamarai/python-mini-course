@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python_mini_course"
+version = "0.1.0"
+description = "A structured Python course with OOP, DSA, Networking"
+authors = [{ name = "Thamarai Kannan", email = "shreethamarai@email.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "pandas",
+    "requests",
+    "pytest"
+]
+

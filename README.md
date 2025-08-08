@@ -61,7 +61,8 @@ python-mini-course/
 └── .gitignore
 
 🧠 Course Syllabus
-🔹 Level 1: Python Fundamentals
+
+###🔹 Level 1: Python Fundamentals
 Python Setup, Comments, Variables
 
 Type Conversion, Input/Output, Operators
@@ -88,6 +89,7 @@ RegEx, pip, assert, Debugging and Unit Testing
 - Encapsulation & Abstraction
 - Operator Overloading
 - Class & Static Methods, Data Classes
+- Writing reusable Python modules and classes
 
 ✅ *Includes: class-based examples, test-driven OOP design, and `pdb` debugging*
 
@@ -108,6 +110,10 @@ RegEx, pip, assert, Debugging and Unit Testing
 ---
 
 ### 🔹 Level 4: Linux System Programming & Networking
+
+#### 📦📤Build & Distribute Python
+- Packaging Python: setup.py, pyproject.toml, Poetry
+- Publishing to PyPI
 
 #### 📂 Linux System Basics
 - File system layout, permissions, groups
