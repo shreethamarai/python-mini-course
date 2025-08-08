@@ -1,0 +1,110 @@
+✅ Reviewed List with Course Alignment
+🧠 Data Structures (10)
+✅ Covered	Structure	Notes
+✅	Array	Core structure
+✅	Linked List	Singly/Doubly linked
+✅	Stack	With Python lists
+✅	Queue	deque, circular queue
+✅	Hash Table / Map	Python dict + collisions
+✅	Binary Tree	DFS, recursion
+✅	Binary Search Tree	Insert/search/delete
+✅	Heap	Min/Max heap via heapq
+✅	Graph	BFS, DFS, adj list/matrix
+✅	Trie	String prefix optimization
+
+🎯 Verdict: Already fully covered — ✅ just make sure each is backed with:
+
+Sample code
+
+Use case explanation
+
+Time & space complexity
+
+📈 Algorithms (20)
+Let’s categorize them for better understanding:
+
+🔍 Search & Traversal
+✅ Covered	Algorithm	Notes
+✅	Binary Search	Recursive & iterative
+✅	BFS	Graph & Tree traversal
+✅	DFS	Graph & Tree traversal
+✅	Dijkstra's	Shortest path, priority queue
+✅	A* Search	Can be added (use heuristic)
+✅	Bellman-Ford	Include for negative weights
+✅	Floyd-Warshall	All-pairs shortest path
+
+🌳 Graph Algorithms
+✅ Covered	Algorithm	Notes
+✅	Kruskal’s Algorithm	MST using Union-Find
+✅	Prim’s Algorithm	MST using priority queue
+
+🌀 Sorting
+✅ Covered	Algorithm	Notes
+✅	Quick Sort	Classic divide & conquer
+✅	Merge Sort	Stable, recursive
+✅	Heap Sort	Based on heap data structure
+✅	Bubble Sort	For concept only
+✅	Insertion Sort	Good for small/partially sorted arrays
+
+🧠 Problem Solving Paradigms
+✅ Covered	Type	Notes
+✅	Dynamic Programming	Fibonacci, knapsack, LIS, etc.
+✅	Greedy Algorithm	Activity selection, coin change
+✅	Backtracking	N-Queens, permutations
+➕ (Add)	Brute Force	Add for contrast and baseline
+
+🔤 String Matching
+| ➕ (Add) | KMP Algorithm | Prefix table & pattern match |
+| ➕ (Add) | Rabin-Karp Algorithm | Rolling hash |
+| ➕ (Add) | TSP (Travelling Salesman Problem) | Use DP + bitmask approach |
+
+🎯 Verdict: 17/20 are already aligned or easy to add.
+
+🔁 Approaches to Learn (5)
+Already included across examples:
+
+✅ Covered	Approach
+✅	Divide and Conquer
+✅	Dynamic Programming
+✅	Greedy Approach
+✅	Backtracking
+✅	Brute Force
+
+🗂️ Final Suggested DSA Folder Breakdown
+In level-3-dsa/, organize like this:
+
+php
+Copy code
+level-3-dsa/
+├── data_structures/
+│   ├── array.py
+│   ├── linked_list.py
+│   ├── trie.py
+│   └── ...
+│
+├── algorithms/
+│   ├── sorting/
+│   │   ├── quick_sort.py
+│   │   ├── merge_sort.py
+│   │   └── ...
+│   ├── searching/
+│   │   ├── binary_search.py
+│   │   └── ...
+│   ├── graph/
+│   │   ├── bfs_dfs.py
+│   │   ├── dijkstra.py
+│   │   ├── kruskal.py
+│   │   └── ...
+│   ├── string_matching/
+│   │   ├── kmp.py
+│   │   ├── rabin_karp.py
+│   │   └── ...
+│   └── tsp.py
+│
+├── paradigms/
+│   ├── dp/
+│   ├── backtracking/
+│   └── greedy/
+│
+├── tests/
+│   └── test_all_algorithms.py
