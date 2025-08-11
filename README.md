@@ -1,3 +1,9 @@
+# Python Mini Course
+[![Python Tests](https://github.com/shreethamarai/python-mini-course/actions/workflows/python-tests.yml/badge.svg)](https://github.com/shreethamarai/python-mini-course/actions/workflows/python-tests.yml)
+
+This repo contains the full 4-level Python course...
+
+
 # 🐍 Python Mini Course (with GitHub Version Control)
 
 A complete, hands-on Python learning roadmap structured into 4 levels, built with a focus on monotasking, self-discipline, and professional development. This course is version-controlled using Git and structured for clarity and long-term learning.
